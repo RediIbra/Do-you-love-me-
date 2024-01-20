@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do you love Redi?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div><h1 class="heading">Do you love Redi?</h1></div>
+      <div class="gif">
+        <img
+          src="gifs/wating.gif"
+          alt="Cute gif"
+          srcset=""
+          width="400px"
+          id="main-photo"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="next()">Yes</button>
+        <button class="btn" id="noButton" onmouseover="move()" onclick="move()">
+          No
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
